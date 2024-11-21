@@ -11,26 +11,23 @@ body,
     font-family: 'Plus Jakarta Sans', sans-serif;
 }
 
+.gradient-1 {
+    background: linear-gradient(to bottom, #FF6F48, #F02AA6);
 
-.section {
-    padding-left: 20px;
-    padding-right: 20px;
-}
-
-.container {
-    max-width: 1120px;
-    margin: 0 auto;
 }
 
 .gradient-2 {
     background: linear-gradient(to bottom, #4851FF, #F02AA6);
 }
 
-a.btn {
-    color: white;
-    border-radius: 28px;
-    text-align: center;
-    padding: 16px 32px;
+.gradient-3 {
+    background: linear-gradient(to bottom, #FFFFFF, #F0F1FF);
+}
+
+.text-3 {
+    font-weight: 800;
+    font-size: 32px;
+    line-height: 120%;
 }
 
 .text-4 {
@@ -51,14 +48,36 @@ a.btn {
     line-height: 150%;
 }
 
+
+.section {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.container {
+    max-width: 1120px;
+    margin: 0 auto;
+}
+
+a.btn {
+    color: white;
+    border-radius: 28px;
+    text-align: center;
+    padding: 16px 32px;
+}
+
+
 .logo {
     height: 28px;
+}
 
+
+h2 {
+    color: white;
 }
 
 /* Courses ********************************** */
 .courses_section {
-    background: linear-gradient(to bottom, #FFFFFF, #F0F1FF);
     padding-top: 92px;
     padding-bottom: 92px;
 }
@@ -92,6 +111,7 @@ a.btn {
 .course_box a {
     color: var(--pink-600);
 }
+
 
 
 

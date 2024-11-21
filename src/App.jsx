@@ -15,7 +15,6 @@ function App() {
 }
 
 export default App;
-// Get Started
 
 // Maximize skill, minimize budget
 
@@ -24,4 +23,4 @@ export default App;
 
 // Get Started
 
-// Check out our most popular courses!
+//

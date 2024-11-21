@@ -31,9 +31,12 @@ export default function CourseList() {
   ];
 
   return (
-    <section className="section courses_section">
+    <section className="section courses_section gradient-3">
       <div className="container">
         <div className="courses_grid">
+          <div className="course_box gradient-1 text-3">
+            <h2>Check out our most popular courses!</h2>
+          </div>
           {courses.map((course, index) => (
             <CourseBox
               key={index}
