@@ -1,6 +1,8 @@
 import React from "react";
 import LogoDark from "../assets/logo-dark.svg";
 import DesktopHero from "../assets/image-hero-desktop.png";
+import TabletHero from "../assets/image-hero-tablet.png";
+import MobileHero from "../assets/image-hero-mobile.png";
 
 export default function Header() {
   return (
@@ -29,7 +31,23 @@ export default function Header() {
             </a>
           </div>
           <div className="image">
-            <img src={DesktopHero} className="" alt="Desktop Hero" />
+            {/* <img
+              src={DesktopHero}
+              className="hero_desktop_image"
+              alt="Desktop Hero"
+            /> */}
+
+            {/* <img
+              src={TabletHero}
+              className="hero_tablet_image"
+              alt="Tablet Hero"
+            />
+
+            <img
+              src={MobileHero}
+              className="hero_mobile_image"
+              alt="Mobile Hero"
+            /> */}
           </div>
         </div>
       </section>

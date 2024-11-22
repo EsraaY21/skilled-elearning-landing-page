@@ -1,3 +1,4 @@
+@import url('./reset.css');
 @import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@100;200;300;400;500;600;700;800&display=swap');
 
 :root {
@@ -134,13 +135,13 @@ header {
     position: relative;
 }
 
-.hero .image img {
-    z-index: -1;
+.hero .image .hero_desktop_image {
+    width: 70vw;
     max-width: 1046px;
+    z-index: -1;
     position: absolute;
     left: 5vw;
     bottom: -10vw;
-    width: 65vw;
 }
 
 
@@ -236,3 +237,5 @@ nav .d-flex {
     }
 
 }
+
+@media (max-width: 768px) {}
