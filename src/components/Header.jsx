@@ -24,7 +24,7 @@ export default function Header() {
               Our modern courses across a range of in-demand skills will give
               you the knowledge you need to live the life you want.
             </p>
-            <a href="#" className="btn text-7 gradient-1">
+            <a href="#" className="btn text-7 gradient-1 btn_overlay">
               Get Started
             </a>
           </div>

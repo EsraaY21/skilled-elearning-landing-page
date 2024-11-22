@@ -6,7 +6,7 @@ export default function Footer() {
       <div className="container">
         <div className="d-flex">
           <img src={LogoLight} className="logo" alt="Logo" />
-          <a href="#" className="btn text-7 gradient-2">
+          <a href="#" className="btn text-7 gradient-2 btn_overlay">
             Get Started
           </a>
         </div>
