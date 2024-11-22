@@ -131,17 +131,10 @@ header {
     max-width: 35ch;
 }
 
-.hero picture {
-    max-width: 37.5rem;
-    justify-self: center;
-    margin-left: -20px;
-    margin-right: -20px;
-    pointer-events: none;
-}
 
 /* Courses ********************************** */
 .courses_section {
-    padding-top: 5.75rem;
+    padding-top: 2rem;
     padding-bottom: 5.75rem;
 }
 
