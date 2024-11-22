@@ -1,9 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@100;200;300;400;500;600;700;800&display=swap');
 
 :root {
+    --blue-600: #666CA3;
     --blue-900: #13183F;
     --grey: #83869A;
-    --pink-600: #F74780
+    --pink-600: #F74780;
+    --pink-300: #FFA7C3
 }
 
 body,
@@ -13,7 +15,6 @@ body,
 
 .gradient-1 {
     background: linear-gradient(to bottom, #FF6F48, #F02AA6);
-
 }
 
 .gradient-2 {
@@ -26,7 +27,15 @@ body,
 
 .bg-blue-900 {
     background-color: var(--blue-900);
+}
 
+a {
+    cursor: pointer;
+    transition: all 0.3 ease-in-out;
+}
+
+.btn.bg-blue-900:hover {
+    background-color: var(--blue-600);
 }
 
 
@@ -98,12 +107,22 @@ p {
 }
 
 /* Header and Hero ********************************** */
+header {
+    background-image: url('../src/assets/image-hero-desktop.webp');
+    background-repeat: no-repeat;
+    background-position: 52vw -20vh;
+}
+
 .hero {
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding-top: 174.5px;
     padding-bottom: 174.5px;
+}
+
+.hero div.image {
+    flex: 1;
 }
 
 .hero_content {
@@ -159,6 +178,10 @@ p {
 
 .course_box a {
     color: var(--pink-600);
+}
+
+.course_box a:hover {
+    color: var(--pink-300);
 }
 
 
