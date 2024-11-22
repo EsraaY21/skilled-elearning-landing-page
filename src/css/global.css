@@ -41,7 +41,7 @@ a {
 
 .text-1 {
     font-weight: 800;
-    font-size: 3.5rem;
+    font-size: clamp(2rem, 5vw, 3.5rem);
     line-height: 120%;
 }
 
@@ -169,6 +169,12 @@ header {
     position: relative;
 }
 
+.course_box.gradient-1 {
+    height: 100%;
+    padding-top: 2.5rem;
+
+}
+
 .box_icon {
     position: absolute;
     top: -1.75rem;
@@ -225,16 +231,13 @@ nav .d-flex {
 
 @media (max-width: 768px) {
     .logo {
-        height: 20px;
+        height: 1.25rem;
     }
 
     a.btn {
-        padding: 10px 2rem;
+        padding: 0.625rem 2rem;
     }
 
-    .text-1 {
-        font-size: 40px;
-    }
 
 }
 
