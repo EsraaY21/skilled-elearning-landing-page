@@ -5,7 +5,7 @@
     --blue-900: #13183F;
     --grey: #83869A;
     --pink-600: #F74780;
-    --pink-300: #FFA7C3
+    --pink-300: #FFA7C3;
 }
 
 body,
@@ -31,67 +31,63 @@ body,
 
 a {
     cursor: pointer;
-    transition: all 0.3 ease-in-out;
+    transition: all 0.3s ease-in-out;
 }
 
 .btn.bg-blue-900:hover {
     background-color: var(--blue-600);
 }
 
-
 .text-1 {
     font-weight: 800;
-    font-size: 56px;
+    font-size: 3.5rem;
     line-height: 120%;
 }
 
 .text-3 {
     font-weight: 800;
-    font-size: 32px;
+    font-size: 2rem;
     line-height: 120%;
 }
 
 .text-4 {
     font-weight: 800;
-    font-size: 24px;
+    font-size: 1.5rem;
     line-height: 120%;
 }
 
 .text-5 {
     font-weight: 500;
-    font-size: 18px;
+    font-size: 1.125rem;
     line-height: 150%;
 }
 
 .text-7 {
     font-weight: 700;
-    font-size: 18px;
+    font-size: 1.125rem;
     line-height: 150%;
 }
 
-
 .section {
-    padding-left: 20px;
-    padding-right: 20px;
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
 }
 
 .container {
-    max-width: 1120px;
+    max-width: 70rem;
     margin: 0 auto;
 }
 
 a.btn {
     color: white;
-    border-radius: 28px;
+    border-radius: 1.75rem;
     text-align: center;
-    padding: 16px 32px;
+    padding: 1rem 2rem;
     display: inline-block;
-
 }
 
-
 .logo {
-    height: 28px;
+    height: 1.75rem;
 }
 
 h1 {
@@ -117,8 +113,8 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding-top: 174.5px;
-    padding-bottom: 174.5px;
+    padding-top: 10.90625rem;
+    padding-bottom: 10.90625rem;
 }
 
 .hero div.image {
@@ -131,34 +127,32 @@ header {
 }
 
 .hero_content h1 {
-    margin-bottom: 24px;
+    margin-bottom: 1.5rem;
 }
 
 .hero_content p {
-    margin-bottom: 40px;
+    margin-bottom: 2.5rem;
     max-width: 35ch;
 }
 
-
-
 /* Courses ********************************** */
 .courses_section {
-    padding-top: 92px;
-    padding-bottom: 92px;
+    padding-top: 5.75rem;
+    padding-bottom: 5.75rem;
 }
 
 .courses_section .courses_grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(352px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(22rem, 1fr));
     gap: 5.25rem 2rem;
 }
 
 .courses_section .course_box {
-    height: 322px;
+    height: 20.125rem;
     background-color: #FFFFFF;
-    padding: 64px 32px 40px 32px;
-    border-radius: 15px;
-    box-shadow: 0px 25px 50px 0px rgba(6, 22, 141, 4.42%);
+    padding: 4rem 2rem 2.5rem 2rem;
+    border-radius: 0.9375rem;
+    box-shadow: 0 1.5625rem 3.125rem 0 rgba(6, 22, 141, 0.0442);
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -167,14 +161,13 @@ header {
 
 .box_icon {
     position: absolute;
-    top: -28px;
+    top: -1.75rem;
 }
 
 .course_box h3 {
     color: var(--blue-900);
-    margin-bottom: 24px;
+    margin-bottom: 1.5rem;
 }
-
 
 .course_box a {
     color: var(--pink-600);
@@ -184,13 +177,12 @@ header {
     color: var(--pink-300);
 }
 
-
 /* Footer ********************************** */
 
 footer,
 nav {
-    padding-top: 24px;
-    padding-bottom: 24px;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
 }
 
 footer .d-flex,
@@ -219,5 +211,4 @@ nav .d-flex {
 
 .btn_overlay:hover::before {
     opacity: 0.5;
-    /* Add the white overlay on hover */
 }
