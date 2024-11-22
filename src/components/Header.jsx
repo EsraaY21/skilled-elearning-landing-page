@@ -32,19 +32,9 @@ export default function Header() {
           </div>
 
           <picture>
-            <source
-              media="(min-width: 75em)"
-              srcset={DesktopHero}
-              width="2092"
-              height="1876"
-            />
-            <source
-              media="(min-width: 50.625em)"
-              srcset={TabletHero}
-              width="695"
-              height="723"
-            />
-            <img src={MobileHero} width="870" height="818" alt="Hero Image" />
+            <source media="(min-width: 1200px)" srcset={DesktopHero} />
+            <source media="(min-width: 810px)" srcset={TabletHero} />
+            <img src={MobileHero} alt="Hero Image" />
           </picture>
         </div>
       </section>

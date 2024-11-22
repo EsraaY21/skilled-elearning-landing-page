@@ -105,10 +105,6 @@ p {
 }
 
 /* Header and Hero ********************************** */
-header {
-    overflow: hidden;
-}
-
 .hero {
     display: flex;
     justify-content: space-between;
@@ -130,6 +126,14 @@ header {
     max-width: 35ch;
 }
 
+.hero picture {
+    max-width: 37.5rem;
+    justify-self: center;
+    margin-left: -20px;
+    margin-right: -20px;
+    pointer-events: none;
+}
+
 /* Courses ********************************** */
 .courses_section {
     padding-top: 5.75rem;
@@ -143,7 +147,6 @@ header {
 }
 
 .courses_section .course_box {
-
     background-color: #FFFFFF;
     padding: 4rem 2rem 2.5rem 2rem;
     border-radius: 0.9375rem;
