@@ -130,21 +130,6 @@ header {
     max-width: 35ch;
 }
 
-.hero .image {
-    flex: 1;
-    position: relative;
-}
-
-.hero .image .hero_desktop_image {
-    width: 70vw;
-    max-width: 1046px;
-    z-index: -1;
-    position: absolute;
-    left: 5vw;
-    bottom: -10vw;
-}
-
-
 /* Courses ********************************** */
 .courses_section {
     padding-top: 5.75rem;
@@ -158,7 +143,7 @@ header {
 }
 
 .courses_section .course_box {
-    height: 20.125rem;
+
     background-color: #FFFFFF;
     padding: 4rem 2rem 2.5rem 2rem;
     border-radius: 0.9375rem;
@@ -184,6 +169,11 @@ header {
     color: var(--blue-900);
     margin-bottom: 1.5rem;
 }
+
+.course_box p {
+    margin-bottom: 1.5rem;
+}
+
 
 .course_box a {
     color: var(--pink-600);
@@ -234,11 +224,11 @@ nav .d-flex {
         height: 1.25rem;
     }
 
-    a.btn {
-        padding: 0.625rem 2rem;
+    .hero {
+        display: block;
     }
 
-
+    .hero_content {
+        max-width: none;
+    }
 }
-
-@media (max-width: 768px) {}

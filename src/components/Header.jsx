@@ -1,8 +1,8 @@
 import React from "react";
 import LogoDark from "../assets/logo-dark.svg";
-import DesktopHero from "../assets/image-hero-desktop.png";
-import TabletHero from "../assets/image-hero-tablet.png";
-import MobileHero from "../assets/image-hero-mobile.png";
+import DesktopHero from "../assets/image-hero-desktop@2x.webp";
+import TabletHero from "../assets/image-hero-tablet@2x.webp";
+import MobileHero from "../assets/image-hero-mobile@2x.webp";
 
 export default function Header() {
   return (
@@ -30,25 +30,22 @@ export default function Header() {
               Get Started
             </a>
           </div>
-          <div className="image">
-            {/* <img
-              src={DesktopHero}
-              className="hero_desktop_image"
-              alt="Desktop Hero"
-            /> */}
 
-            {/* <img
-              src={TabletHero}
-              className="hero_tablet_image"
-              alt="Tablet Hero"
+          <picture>
+            <source
+              media="(min-width: 75em)"
+              srcset={DesktopHero}
+              width="2092"
+              height="1876"
             />
-
-            <img
-              src={MobileHero}
-              className="hero_mobile_image"
-              alt="Mobile Hero"
-            /> */}
-          </div>
+            <source
+              media="(min-width: 50.625em)"
+              srcset={TabletHero}
+              width="695"
+              height="723"
+            />
+            <img src={MobileHero} width="870" height="818" alt="Hero Image" />
+          </picture>
         </div>
       </section>
     </header>
