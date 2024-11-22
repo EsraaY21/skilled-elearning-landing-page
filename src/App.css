@@ -74,7 +74,8 @@ a {
 }
 
 .container {
-    max-width: 70rem;
+    width: 85%;
+    max-width: 1120px;
     margin: 0 auto;
 }
 
@@ -104,34 +105,14 @@ p {
 
 /* Header and Hero ********************************** */
 header {
-    position: relative;
     overflow: hidden;
-    /* background-image: url('../src/assets/image-hero-desktop.webp'); */
-    /* background-repeat: no-repeat; */
-    /* background-position: 52vw -20vh; */
-    /* background-size: cover; */
-
-    /* background-size: 50%; */
-}
-
-header .image img {
-    position: absolute;
-    z-index: -1;
-    top: -14vh;
-    left: 50%;
-    /* right: -307px; */
 }
 
 .hero {
     display: flex;
-    align-items: center;
     justify-content: space-between;
-    padding-top: 10.90625rem;
-    padding-bottom: 10.90625rem;
-}
-
-.hero div.image {
-    flex: 1;
+    padding-top: 8%;
+    padding-bottom: 10%;
 }
 
 .hero_content {
@@ -147,6 +128,21 @@ header .image img {
     margin-bottom: 2.5rem;
     max-width: 35ch;
 }
+
+.hero .image {
+    flex: 1;
+    position: relative;
+}
+
+.hero .image img {
+    z-index: -1;
+    max-width: 1046px;
+    position: absolute;
+    left: 5vw;
+    bottom: -10vw;
+    width: 65vw;
+}
+
 
 /* Courses ********************************** */
 .courses_section {
@@ -238,6 +234,5 @@ nav .d-flex {
     .text-1 {
         font-size: 40px;
     }
-
 
 }
