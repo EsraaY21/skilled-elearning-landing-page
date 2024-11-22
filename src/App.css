@@ -24,6 +24,11 @@ body,
     background: linear-gradient(to bottom, #FFFFFF, #F0F1FF);
 }
 
+.bg-blue-900 {
+    background-color: var(--blue-900);
+
+}
+
 .text-3 {
     font-weight: 800;
     font-size: 32px;
@@ -76,6 +81,8 @@ h2 {
     color: white;
 }
 
+/* Hero ********************************** */
+
 /* Courses ********************************** */
 .courses_section {
     padding-top: 92px;
@@ -123,13 +130,14 @@ h2 {
 
 /* Footer ********************************** */
 
-footer {
-    background-color: var(--blue-900);
+footer,
+nav {
     padding-top: 24px;
     padding-bottom: 24px;
 }
 
-footer .d-flex {
+footer .d-flex,
+nav .d-flex {
     display: flex;
     justify-content: space-between;
     align-items: center;

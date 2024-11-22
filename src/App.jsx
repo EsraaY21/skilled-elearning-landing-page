@@ -1,11 +1,12 @@
 import "./App.css";
 import Footer from "./components/Footer";
 import CourseList from "./components/CourseList";
+import Header from "./components/Header";
 
 function App() {
   return (
     <>
-      <header></header>
+      <Header />
       <main>
         <CourseList />
       </main>
@@ -15,12 +16,3 @@ function App() {
 }
 
 export default App;
-
-// Maximize skill, minimize budget
-
-// Our modern courses across a range of in-demand skills will give you the
-// knowledge you need to live the life you want.
-
-// Get Started
-
-//

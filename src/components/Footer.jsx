@@ -2,7 +2,7 @@ import LogoLight from "../assets/logo-light.svg";
 
 export default function Footer() {
   return (
-    <footer className="section">
+    <footer className="section bg-blue-900">
       <div className="container">
         <div className="d-flex">
           <img src={LogoLight} className="logo" alt="Logo" />
