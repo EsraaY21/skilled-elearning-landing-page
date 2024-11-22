@@ -1,7 +1,7 @@
 import React from "react";
 
 export default function CourseBox({ title, description }) {
-  const iconPath = `/src/assets/icon-${title.toLowerCase()}.svg`;
+  const iconPath = `../assets/icon-${title.toLowerCase()}.svg`;
 
   return (
     <div className="course_box">
