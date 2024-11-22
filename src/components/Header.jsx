@@ -31,11 +31,23 @@ export default function Header() {
             </a>
           </div>
 
-          <picture>
-            <source media="(min-width: 1200px)" srcset={DesktopHero} />
-            <source media="(min-width: 810px)" srcset={TabletHero} />
-            <img src={MobileHero} alt="Hero Image" />
-          </picture>
+          <div className="hero_images">
+            <img
+              src={DesktopHero}
+              alt="Hero Desktop"
+              className="hero_image desktop"
+            />
+            <img
+              src={TabletHero}
+              alt="Hero Tablet"
+              className="hero_image tablet"
+            />
+            <img
+              src={MobileHero}
+              alt="Hero Mobile"
+              className="hero_image mobile"
+            />
+          </div>
         </div>
       </section>
     </header>

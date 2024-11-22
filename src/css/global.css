@@ -105,11 +105,16 @@ p {
 }
 
 /* Header and Hero ********************************** */
+header {
+    overflow: hidden;
+}
+
 .hero {
+    position: relative;
     display: flex;
     justify-content: space-between;
     padding-top: 8%;
-    padding-bottom: 10%;
+    padding-bottom: 15%;
 }
 
 .hero_content {
@@ -222,6 +227,42 @@ nav .d-flex {
     opacity: 0.5;
 }
 
+.hero_image {
+    z-index: -1;
+}
+
+.hero_image.mobile {
+    display: none;
+}
+
+.hero_image.tablet {
+    display: none;
+}
+
+.hero_image.desktop {
+    display: block;
+    position: absolute;
+    top: -18vw;
+    right: -36vw;
+}
+
+@media (max-width: 1200px) {
+    .hero_image.mobile {
+        display: none;
+    }
+
+    .hero_image.desktop {
+        display: none;
+    }
+
+    .hero_image.tablet {
+        display: block;
+        position: absolute;
+        top: -23vw;
+        right: -38vw;
+    }
+}
+
 @media (max-width: 768px) {
     .logo {
         height: 1.25rem;
@@ -234,4 +275,17 @@ nav .d-flex {
     .hero_content {
         max-width: none;
     }
+
+    .hero_image.desktop {
+        display: none;
+    }
+
+    .hero_image.tablet {
+        display: none;
+    }
+
+    .hero_image.mobile {
+        display: block;
+    }
+
 }
