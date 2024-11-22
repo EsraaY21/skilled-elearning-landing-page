@@ -29,7 +29,7 @@ export default function Header() {
             </a>
           </div>
           <div className="image">
-            {/* <img src={DesktopHero} className="" alt="Desktop Hero" /> */}
+            <img src={DesktopHero} className="" alt="Desktop Hero" />
           </div>
         </div>
       </section>

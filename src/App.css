@@ -104,9 +104,22 @@ p {
 
 /* Header and Hero ********************************** */
 header {
-    background-image: url('../src/assets/image-hero-desktop.webp');
-    background-repeat: no-repeat;
-    background-position: 52vw -20vh;
+    position: relative;
+    overflow: hidden;
+    /* background-image: url('../src/assets/image-hero-desktop.webp'); */
+    /* background-repeat: no-repeat; */
+    /* background-position: 52vw -20vh; */
+    /* background-size: cover; */
+
+    /* background-size: 50%; */
+}
+
+header .image img {
+    position: absolute;
+    z-index: -1;
+    top: -14vh;
+    left: 50%;
+    /* right: -307px; */
 }
 
 .hero {
@@ -211,4 +224,20 @@ nav .d-flex {
 
 .btn_overlay:hover::before {
     opacity: 0.5;
+}
+
+@media (max-width: 768px) {
+    .logo {
+        height: 20px;
+    }
+
+    a.btn {
+        padding: 10px 2rem;
+    }
+
+    .text-1 {
+        font-size: 40px;
+    }
+
+
 }
