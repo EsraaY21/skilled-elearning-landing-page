@@ -47,7 +47,7 @@ a {
 
 .text-3 {
     font-weight: 800;
-    font-size: 2rem;
+    font-size: clamp(1.5rem, 5vw, 2rem);
     line-height: 120%;
 }
 
@@ -280,6 +280,10 @@ nav .d-flex {
 
     .hero_image.mobile {
         display: block;
+    }
+
+    .courses_section .courses_grid {
+        grid-template-columns: 1fr;
     }
 
 }
